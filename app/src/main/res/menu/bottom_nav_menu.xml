@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/newEx"
+        android:title="Add"
+        android:icon="@drawable/plus"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

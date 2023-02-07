@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:background="@color/background"
+    android:padding="5dp"
+    >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="205dp" />
+
+    <TextView
+        android:id="@+id/tvNameTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="Training"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTimeTr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="time"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvNameData1" />
+
+    <ImageView
+        android:id="@+id/imTraining"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.7"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNameData2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvNameData2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvNameData1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="TextView"
+        android:textColor="@color/textTint"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameTraining" />
+
+    <TextView
+        android:id="@+id/tvExWeight1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvNameData1"
+        app:layout_constraintStart_toStartOf="@+id/tvNameData1"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameData1" />
+
+    <TextView
+        android:id="@+id/tvExWeight2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvExWeight1"
+        app:layout_constraintStart_toStartOf="@+id/tvExWeight1"
+        app:layout_constraintTop_toBottomOf="@+id/tvExWeight1" />
+
+    <TextView
+        android:id="@+id/tvExWeight3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvExWeight2"
+        app:layout_constraintStart_toStartOf="@+id/tvExWeight2"
+        app:layout_constraintTop_toBottomOf="@+id/tvExWeight2" />
+
+    <TextView
+        android:id="@+id/tvExWeight4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvExWeight3"
+        app:layout_constraintStart_toStartOf="@+id/tvExWeight3"
+        app:layout_constraintTop_toBottomOf="@+id/tvExWeight3" />
+
+    <TextView
+        android:id="@+id/tvExWeight5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvExWeight4"
+        app:layout_constraintStart_toStartOf="@+id/tvExWeight4"
+        app:layout_constraintTop_toBottomOf="@+id/tvExWeight4" />
+
+    <TextView
+        android:id="@+id/tvExWeight6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvExWeight5"
+        app:layout_constraintStart_toStartOf="@+id/tvExWeight5"
+        app:layout_constraintTop_toBottomOf="@+id/tvExWeight5" />
+
+    <TextView
+        android:id="@+id/tvNameData2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="TextView"
+        android:textColor="@color/textTint"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameTraining" />
+
+    <TextView
+        android:id="@+id/tvExQua1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvNameData2"
+        app:layout_constraintStart_toStartOf="@+id/tvNameData2"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameData2" />
+
+    <TextView
+        android:id="@+id/tvExQua2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvExQua1"
+        app:layout_constraintStart_toStartOf="@+id/tvExQua1"
+        app:layout_constraintTop_toBottomOf="@+id/tvExQua1" />
+
+    <TextView
+        android:id="@+id/tvExQua3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvExQua2"
+        app:layout_constraintStart_toStartOf="@+id/tvExQua2"
+        app:layout_constraintTop_toBottomOf="@+id/tvExQua2" />
+
+    <TextView
+        android:id="@+id/tvExQua4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvExQua3"
+        app:layout_constraintStart_toStartOf="@+id/tvExQua3"
+        app:layout_constraintTop_toBottomOf="@+id/tvExQua3" />
+
+    <TextView
+        android:id="@+id/tvExQua5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvExQua4"
+        app:layout_constraintStart_toStartOf="@+id/tvExQua4"
+        app:layout_constraintTop_toBottomOf="@+id/tvExQua4" />
+
+    <TextView
+        android:id="@+id/tvExQua6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvExQua5"
+        app:layout_constraintStart_toStartOf="@+id/tvExQua5"
+        app:layout_constraintTop_toBottomOf="@+id/tvExQua5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

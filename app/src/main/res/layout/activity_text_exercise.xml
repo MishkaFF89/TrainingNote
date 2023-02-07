@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextExercise">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="254dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="205dp" />
+
+    <TextView
+        android:id="@+id/textExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <TextView
+        android:id="@+id/textData1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textExercise" />
+
+    <TextView
+        android:id="@+id/textData2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toBottomOf="@+id/textExercise" />
+
+    <TextView
+        android:id="@+id/textW1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textData1"
+        app:layout_constraintStart_toStartOf="@+id/textData1"
+        app:layout_constraintTop_toBottomOf="@+id/textData1" />
+
+    <TextView
+        android:id="@+id/textW2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textW1"
+        app:layout_constraintStart_toStartOf="@+id/textW1"
+        app:layout_constraintTop_toBottomOf="@+id/textW1"
+        />
+
+    <TextView
+        android:id="@+id/textW3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textW2"
+        app:layout_constraintStart_toStartOf="@+id/textW2"
+        app:layout_constraintTop_toBottomOf="@+id/textW2" />
+
+    <TextView
+        android:id="@+id/textW4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textW3"
+        app:layout_constraintStart_toStartOf="@+id/textW3"
+        app:layout_constraintTop_toBottomOf="@+id/textW3" />
+
+    <TextView
+        android:id="@+id/textW5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textW4"
+        app:layout_constraintStart_toStartOf="@+id/textW4"
+        app:layout_constraintTop_toBottomOf="@+id/textW4" />
+
+    <TextView
+        android:id="@+id/textW6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textW5"
+        app:layout_constraintStart_toStartOf="@+id/textW5"
+        app:layout_constraintTop_toBottomOf="@+id/textW5" />
+
+    <TextView
+        android:id="@+id/textQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textData2"
+        app:layout_constraintStart_toStartOf="@+id/textData2"
+        app:layout_constraintTop_toBottomOf="@+id/textData2" />
+
+    <TextView
+        android:id="@+id/textQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textQ1"
+        app:layout_constraintStart_toStartOf="@+id/textQ1"
+        app:layout_constraintTop_toBottomOf="@+id/textQ1" />
+
+    <TextView
+        android:id="@+id/textQ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textQ2"
+        app:layout_constraintStart_toStartOf="@+id/textQ2"
+        app:layout_constraintTop_toBottomOf="@+id/textQ2" />
+
+    <TextView
+        android:id="@+id/textQ4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textQ3"
+        app:layout_constraintStart_toStartOf="@+id/textQ3"
+        app:layout_constraintTop_toBottomOf="@+id/textQ3" />
+
+    <TextView
+        android:id="@+id/textQ5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textQ4"
+        app:layout_constraintStart_toStartOf="@+id/textQ4"
+        app:layout_constraintTop_toBottomOf="@+id/textQ4" />
+
+    <TextView
+        android:id="@+id/textQ6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textQ5"
+        app:layout_constraintStart_toStartOf="@+id/textQ5"
+        app:layout_constraintTop_toBottomOf="@+id/textQ5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
