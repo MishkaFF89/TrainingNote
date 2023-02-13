@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@drawable/background_gradient"
     tools:context=".AddNewExercise">
 
     <androidx.constraintlayout.widget.Guideline
@@ -294,17 +294,17 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="24dp"
         android:backgroundTint="@color/buttonEx"
         android:fontFamily="@font/rubik_mono_one"
         android:onClick="saveEx"
         android:text="Добавить упражнение"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weigh6" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"

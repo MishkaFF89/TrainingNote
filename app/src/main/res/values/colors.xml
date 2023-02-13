@@ -8,8 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="cardio">#EFEDB5</color>
-    <color name="fitnes">#F3DAC0</color>
+    <color name="cardio">#FCD871</color>
+    <color name="fitnes">#FC9571</color>
 
     <color name="background">#ADCBB5</color>
     <color name="button">#BF9E30</color>
@@ -17,8 +17,8 @@
     <color name="color1">#153626</color>
     <color name="status">#436788</color>
 
-    <color name="buttonEx">#62a77c</color>
-    <color name="ButtonEx2">#436788</color>
+    <color name="buttonEx">#FC9571</color>
+    <color name="ButtonEx2">#FCD871</color>
 
     <color name="ButtonYes">#055E13</color>
     <color name="ButtonNo">#6C1515</color>

@@ -4,16 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
     tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/background_gradient"
+        app:layout_constraintBottom_toTopOf="@+id/navMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navMenu"
         android:layout_width="0dp"
-        android:layout_height="70dp"
-        android:background="@color/color1"
+        android:layout_height="50dp"
+        android:background="#04619F"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@color/button"
+        app:labelVisibilityMode="unlabeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +35,8 @@
         android:id="@+id/rcViewM"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_margin="2dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/background_gradient"
         android:foregroundGravity="center"
         android:isScrollContainer="false"
         app:layout_constraintBottom_toBottomOf="@+id/frame_home_layout"
@@ -31,14 +44,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <FrameLayout
-        android:id="@+id/frame_home_layout"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/navMenu"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

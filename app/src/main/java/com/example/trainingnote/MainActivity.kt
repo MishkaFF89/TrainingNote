@@ -6,6 +6,7 @@ import android.content.DialogInterface.BUTTON_POSITIVE
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.view.Window
 import android.widget.ImageButton
 import androidx.fragment.app.Fragment
@@ -30,8 +31,14 @@ class MainActivity : AppCompatActivity() {
         openFragment(HomeFragment.newInstance(), R.id.frame_home_layout)
         binding.navMenu.setOnItemSelectedListener {
             when (it.itemId) {
-                R.id.home -> openFragment(HomeFragment.newInstance(), R.id.frame_home_layout)
-                R.id.newEx ->openFragment(NewExerciceFragment.newInstance(),R.id.frame_home_layout)
+                R.id.home -> {
+                    openFragment(HomeFragment.newInstance(), R.id.frame_home_layout)
+                    binding.rcViewM.visibility = View.VISIBLE
+                }
+                R.id.newEx ->{
+                    openFragment(NewExerciceFragment.newInstance(),R.id.frame_home_layout)
+                    binding.rcViewM.visibility = View.GONE
+                }
 
             }
             true
@@ -88,7 +95,11 @@ class MainActivity : AppCompatActivity() {
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 myAdapter.removeItem(viewHolder.layoutPosition, myDbManager)
             }
+
+
         })
+
+
     }
 
 

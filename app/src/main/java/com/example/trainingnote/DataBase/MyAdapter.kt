@@ -153,7 +153,7 @@ class MyAdapter(listMain: ArrayList<ListItem>, contextM: Context) :
     }
 
     override fun onBindViewHolder(holder: MyHolder, position: Int) {
-        listArray.sortByDescending { it.id }
+        listArray.asReversed()
         holder.setData(listArray.get(position))
 
     }
